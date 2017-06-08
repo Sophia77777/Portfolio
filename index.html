@@ -2,28 +2,40 @@
 <html>
 <head>
 	<title> PORTFOLIO</title>
+	<link rel="stylesheet" type="text/css" href="http://bootswatch.com/readable/bootstrap.min.css">
 </head>
 
 
-<body background= "./Images/images1.jpg" >
+<body background= "./Images/flow.jpg" >
 
 <div style="color: blue">
 	
+
+
 <nav>
-	<div align = "left">
-	
-		<a href="#Cinfo">About Me</a> &#160;
-		<a href="#List">Course Taken</a>&#160;
-		<a href="#Projects">School Projects</a>&#160;
-		<a href="#Sum"> Career Summary</a>&#160;
-		<a href="#Skills">Functional Skills</a>&#160; 
-		<a href="#Paper"> Course Project</a>&#160;<br>
-		<a href="#Com"> Community Involvement</a>&#160;
-		<a href="#Vol">Volunteer Projects</a>&#160;
-		<a href="#Extra">Extra-curricular Projects</a>&#160;
-		<a href="#Computer">Computer Skills</a>&#160;
-		<a href="#Multimedia">Multimedia Clips</a>&#160;
-	</div>
+
+
+
+
+
+<div class="btn-group btn-group-justified">
+
+ <a href="#Cinfo" class="btn btn-success"><font size = 2 >About Me</font></a>
+<a href="#List" class="btn btn-success"><font size = 2>Course Taken</font></a>
+<a href="#Projects" class="btn btn-success"><font size = 2 >School Projects</font></a>
+<a href="#Sum" class="btn btn-success"><font size = 2>Career Summary</font></a>
+<a href="#Skills" class="btn btn-success"><font size = 2>Functional Skills</font></a>
+<a href="#Paper" class="btn btn-success"><font size = 2>Course Project</font></a>
+<a href="#Com" class="btn btn-success"><font size = 2>Community Involvement</font></a>
+<a href="#Vol" class="btn btn-success"><font size = 2>Volunteer Projects</font></a>
+<a href="#Extra" class="btn btn-success"><font size = 2>Extra-curricular Projects</font></a>
+<a href="#Computer" class="btn btn-success"><font size = 2>Computer Skills</font></a>
+<a href="#Multimedia" class="btn btn-success"><font size = 2>Multimedia Clips</font></a>
+</div>
+
+
+
+</div>
 </nav>
 <div id ="nav"></div>
 <br>
@@ -33,7 +45,14 @@
 <img src="./Images/un.png"
 	style = "width: 160px; height: 280px;"> 
 </div>
+
+<p></p>
 <p> <b> Resume </b> </p>
+
+
+
+
+
 
 <h2 id = "Cinfo"> Personal Information:  </h2>
 	<ul>
@@ -46,15 +65,48 @@
 	</ul>
 
 <h2> Educational Background: </h2>
+		
+	<p id = "List"><b> List of Course Taken:</b></p>	
+<table class="table table-striped table-hover " style = "width:600px;">
+  <thead>
+    <tr>
+     
+      <th>Subject Code</th>
+      <th>Description</th>
+      <th>Units</th>
+      <th>Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>IT 6</td>
+      <td>IT Project Management</td>
+      <td>3</td>
+      <td>90</td>
+    </tr>
+    <tr>
+      <td>ITE3</td>
+      <td>Web Application Development</td>
+      <td>3</td>
+      <td>90</td>
+    </tr>
+    <tr >
+      <td>ITE23</td>
+      <td>CCNA 4</td>
+      <td>3</td>
+      <td>90</td>
+    </tr>
+    
+  </tbody>
+</table> 
 
+
+
+		
 	
-		<p id = "List"><b> List of Course Taken:</b></p>
-		<ul>
-			<li>IT Project Management </li>
-			<li>Web Application Development </li>
-			<li>CCNA 4</li>
+			
 
-		</ul>
+
 
 		<p id = "Projects"><b> School Projects:</b> </p>
 		<ul>
@@ -112,6 +164,12 @@
 		<p id = "Multimedia"> <b> Multimedia clips:</b> </p>
 			<img src="./Images/darna.gif"
 	style = "width: 300px; height: 200px;"> 
+
+<ul class="pager">
+  <li><a href="#">Previous</a></li>
+  <li><a href="#Cinfo">Next</a></li>
+</ul>
+
 
 
 </body>
